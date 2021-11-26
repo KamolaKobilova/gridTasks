@@ -1,0 +1,19 @@
+.card {
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: auto auto auto auto auto auto ;
+    padding: 10px;
+    /* grid-row: 20px; */
+    border: 1px solid;
+    grid-gap: 20px;
+}
+.card > div {
+    background-color: blue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+    .item8 {
+        grid-area: 1 / 2 / 5 / 6;
+
+    }

@@ -1,0 +1,16 @@
+.item6 {
+    grid-area: myArea;
+}
+.container {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea ';
+    grid-gap: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+.container > div {
+    background-color: purple;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
